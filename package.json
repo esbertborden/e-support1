@@ -11,10 +11,21 @@
     "start": "refine start"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.1.0",
+    "@refinedev/antd": "^5.43.0",
     "@refinedev/cli": "^2.16.50",
-    "@refinedev/core": "^5.0.8",
+    "@refinedev/core": "^4.54.0",
+    "@refinedev/kbar": "^2.0.1",
+    "@refinedev/react-router-v6": "^4.6.2",
+    "@tailwindcss/cli": "^4.0.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "antd": "^6.2.3",
+    "lucide-react": "^0.563.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-hook-form": "^7.71.1",
+    "react-router-dom": "^6.30.3",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@types/node": "^20",
