@@ -119,62 +119,62 @@ function Header({
     setIsMenuOpen(false);
   };
 
-  const africanCountries = [
-    { name: "Algeria", flag: "🇩🇿" },
-    { name: "Angola", flag: "🇦🇴" },
-    { name: "Benin", flag: "🇧🇯" },
-    { name: "Botswana", flag: "🇧🇼" },
-    { name: "Burkina Faso", flag: "🇧🇫" },
-    { name: "Burundi", flag: "🇧🇮" },
-    { name: "Cameroon", flag: "🇨🇲" },
-    { name: "Cape Verde", flag: "🇨🇻" },
-    { name: "Central African Republic", flag: "🇨🇫" },
-    { name: "Chad", flag: "🇹🇩" },
-    { name: "Comoros", flag: "🇰🇲" },
-    { name: "Congo (Brazzaville)", flag: "🇨🇬" },
-    { name: "Congo (Kinshasa)", flag: "🇨🇩" },
-    { name: "Côte d'Ivoire", flag: "🇨🇮" },
-    { name: "Djibouti", flag: "🇩🇯" },
-    { name: "Egypt", flag: "🇪🇬" },
-    { name: "Equatorial Guinea", flag: "🇬🇶" },
-    { name: "Eritrea", flag: "🇪🇷" },
-    { name: "Eswatini", flag: "🇸🇿" },
-    { name: "Ethiopia", flag: "🇪🇹" },
-    { name: "Gabon", flag: "🇬🇦" },
-    { name: "Gambia", flag: "🇬🇲" },
-    { name: "Ghana", flag: "🇬🇭" },
-    { name: "Guinea", flag: "🇬🇳" },
-    { name: "Guinea-Bissau", flag: "🇬🇼" },
-    { name: "Kenya", flag: "🇰🇪" },
-    { name: "Lesotho", flag: "🇱🇸" },
-    { name: "Liberia", flag: "🇱🇷" },
-    { name: "Libya", flag: "🇱🇾" },
-    { name: "Madagascar", flag: "🇲🇬" },
-    { name: "Malawi", flag: "🇲🇼" },
-    { name: "Mali", flag: "🇲🇱" },
-    { name: "Mauritania", flag: "🇲🇷" },
-    { name: "Mauritius", flag: "🇲🇺" },
-    { name: "Morocco", flag: "🇲🇦" },
-    { name: "Mozambique", flag: "🇲🇿" },
-    { name: "Namibia", flag: "🇳🇦" },
-    { name: "Niger", flag: "🇳🇪" },
-    { name: "Nigeria", flag: "🇳🇬" },
-    { name: "Rwanda", flag: "🇷🇼" },
-    { name: "São Tomé and Príncipe", flag: "🇸🇹" },
-    { name: "Senegal", flag: "🇸🇳" },
-    { name: "Seychelles", flag: "🇸🇨" },
-    { name: "Sierra Leone", flag: "🇸🇱" },
-    { name: "Somalia", flag: "🇸🇴" },
-    { name: "South Africa", flag: "🇿🇦" },
-    { name: "South Sudan", flag: "🇸🇸" },
-    { name: "Sudan", flag: "🇸🇩" },
-    { name: "Tanzania", flag: "🇹🇿" },
-    { name: "Togo", flag: "🇹🇬" },
-    { name: "Tunisia", flag: "🇹🇳" },
-    { name: "Uganda", flag: "🇺🇬" },
-    { name: "Zambia", flag: "🇿🇲" },
-    { name: "Zimbabwe", flag: "🇿🇼" },
-  ];
+//   const africanCountries = [
+//     { name: "Algeria", flag: "🇩🇿" },
+//     { name: "Angola", flag: "🇦🇴" },
+//     { name: "Benin", flag: "🇧🇯" },
+//     { name: "Botswana", flag: "🇧🇼" },
+//     { name: "Burkina Faso", flag: "🇧🇫" },
+//     { name: "Burundi", flag: "🇧🇮" },
+//     { name: "Cameroon", flag: "🇨🇲" },
+//     { name: "Cape Verde", flag: "🇨🇻" },
+//     { name: "Central African Republic", flag: "🇨🇫" },
+//     { name: "Chad", flag: "🇹🇩" },
+//     { name: "Comoros", flag: "🇰🇲" },
+//     { name: "Congo (Brazzaville)", flag: "🇨🇬" },
+//     { name: "Congo (Kinshasa)", flag: "🇨🇩" },
+//     { name: "Côte d'Ivoire", flag: "🇨🇮" },
+//     { name: "Djibouti", flag: "🇩🇯" },
+//     { name: "Egypt", flag: "🇪🇬" },
+//     { name: "Equatorial Guinea", flag: "🇬🇶" },
+//     { name: "Eritrea", flag: "🇪🇷" },
+//     { name: "Eswatini", flag: "🇸🇿" },
+//     { name: "Ethiopia", flag: "🇪🇹" },
+//     { name: "Gabon", flag: "🇬🇦" },
+//     { name: "Gambia", flag: "🇬🇲" },
+//     { name: "Ghana", flag: "🇬🇭" },
+//     { name: "Guinea", flag: "🇬🇳" },
+//     { name: "Guinea-Bissau", flag: "🇬🇼" },
+//     { name: "Kenya", flag: "🇰🇪" },
+//     { name: "Lesotho", flag: "🇱🇸" },
+//     { name: "Liberia", flag: "🇱🇷" },
+//     { name: "Libya", flag: "🇱🇾" },
+//     { name: "Madagascar", flag: "🇲🇬" },
+//     { name: "Malawi", flag: "🇲🇼" },
+//     { name: "Mali", flag: "🇲🇱" },
+//     { name: "Mauritania", flag: "🇲🇷" },
+//     { name: "Mauritius", flag: "🇲🇺" },
+//     { name: "Morocco", flag: "🇲🇦" },
+//     { name: "Mozambique", flag: "🇲🇿" },
+//     { name: "Namibia", flag: "🇳🇦" },
+//     { name: "Niger", flag: "🇳🇪" },
+//     { name: "Nigeria", flag: "🇳🇬" },
+//     { name: "Rwanda", flag: "🇷🇼" },
+//     { name: "São Tomé and Príncipe", flag: "🇸🇹" },
+//     { name: "Senegal", flag: "🇸🇳" },
+//     { name: "Seychelles", flag: "🇸🇨" },
+//     { name: "Sierra Leone", flag: "🇸🇱" },
+//     { name: "Somalia", flag: "🇸🇴" },
+//     { name: "South Africa", flag: "🇿🇦" },
+//     { name: "South Sudan", flag: "🇸🇸" },
+//     { name: "Sudan", flag: "🇸🇩" },
+//     { name: "Tanzania", flag: "🇹🇿" },
+//     { name: "Togo", flag: "🇹🇬" },
+//     { name: "Tunisia", flag: "🇹🇳" },
+//     { name: "Uganda", flag: "🇺🇬" },
+//     { name: "Zambia", flag: "🇿🇲" },
+//     { name: "Zimbabwe", flag: "🇿🇼" },
+//   ];
 
   return (
     <>
@@ -183,7 +183,8 @@ function Header({
         <div className="h-16 flex items-center px-6">
           {/* Left - Logo and Menu Button */}
           <div className="flex items-center gap-4">
-            <img src="/Ecobank.png" alt="Logo" className="h-12 w-14" />
+            {/* <img src="/Ecobank.png" alt="Logo" className="h-12 w-14" /> */}
+                <span className="text-2xl font-bold font-mono text-white">ECOBANK</span>
             
             {/* Menu Button */}
             <button 
@@ -344,7 +345,7 @@ function Header({
 
             {/* Region Selector */}
             <div className="relative">
-              <button 
+              {/* <button 
                 className="hover:bg-blue-700 px-4 py-2 rounded-lg flex items-center gap-2 transition-colors border border-blue-500"
                 onClick={() => {
                   setIsRegionOpen(!isRegionOpen);
@@ -354,8 +355,8 @@ function Header({
                   setIsProfileOpen(false);
                 }}
                 title="Select region"
-              >
-                <span className="font-medium">Ghana</span>
+              > */}
+                {/* <span className="font-medium">Ghana</span>
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M7 10l5 5 5-5z" />
                 </svg>
@@ -374,7 +375,7 @@ function Header({
                     ))}
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
 
             {/* User Profile */}
