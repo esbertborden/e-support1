@@ -207,7 +207,7 @@ function Header({
           
           {/* Center - Search (Full width) */}
           <div className="flex-1 mx-6">
-            <div className="max-w-2xl mx-auto">
+            <div className="max-w-2xl mx-auto text-gray-700">
               <input
                 type="text"
                 placeholder="Search for services, requests, or accounts..."
